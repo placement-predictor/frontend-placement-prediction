@@ -1,7 +1,6 @@
 .hero-wrapper {
   font-family: 'Segoe UI', sans-serif;
-background: #F8F7F5;
-
+  /* background: #F8F7F5; */
   color: #333;
 }
 
@@ -10,37 +9,18 @@ background: #F8F7F5;
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  /* background: #F8F7F5; */
-
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
-    width: 164px;
-   height: 81px;
-}
-
-.image{
   width: 164px;
-height: 81px;
-top: 45px;
-left: 59px;
-
+  height: 81px;
 }
 
-.smallgirl{
-  width: 261px;
-height: 381px;
-top: 20px;
-right:130px;
-z-index:1000;
-position:absolute;
-
-}
-
-.logo span {
-  /* color: #7b1b3a; */
+.image {
+  width: 164px;
+  height: 81px;
 }
 
 .auth-buttons button {
@@ -49,43 +29,45 @@ position:absolute;
   border: 2px solid #7b1b3a;
   border-radius: 5px;
   background: none;
-  /* color: #7b1b3a; */
   font-weight: 600;
   cursor: pointer;
 }
 
 .signup {
-  /* background-color: red; */
-  color:#b13762; /* <-- this makes text visible */
+  color: #b13762;
   width: 116px;
   height: 53px;
-  top: 65px;
-  left: 1120px;
   font-family: Afacad;
   font-weight: 700;
   font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0%;
 }
-.login{
- width: 116px;
-height: 53px; 
-top: 65px;
-left: 1275px;
-font-family: Afacad;
-font-weight: 700;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-color:#7b1b3a;
 
+.login {
+  width: 116px;
+  height: 53px;
+  font-family: Afacad;
+  font-weight: 700;
+  font-size: 20px;
+  color: #7b1b3a;
 }
 
 .hero {
   display: flex;
   justify-content: space-between;
   padding: 50px 60px;
-  background: linear-gradient(to right, #fff, #f8f1f2);
+   width: 1288px;       /* or 100% */
+  height: 500px;       /* adjust as needed */
+  border: 5px solid rgba(58, 53, 53, 0.196); /* black border with 80% opacity */
+  border-radius: 10px;  /* optional rounded corners */
+  backdrop-filter: blur(4px); /* blur the background behind */
+  -webkit-backdrop-filter: blur(4px); /* for Safari support */
+  /* background-color: rgba(255, 255, 255, 0.1); optional translucent background */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* subtle outer shadow */
+
+top: 168px;
+left: 80px;
+margin:auto;
+
 }
 
 .text-section {
@@ -98,18 +80,32 @@ color:#7b1b3a;
 }
 
 .text-section h1 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #444;
+  font-family: 'SeoulNamsan CL', sans-serif;
+  font-weight: 400;  /* Semibold equivalent */
+  font-size: 79px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #333333;  /* Default color for the whole text */
 }
 
 .text-section h1 span {
-  color: #b13762;
+  color: #b13762; /* Specific color for 'Accelerate' */
+}
+
+.how-it-works-div {
+  width: 277px;
+  height: 45px;
+  border-radius: 20px;
+  background: #B84066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
 }
 
 .how-it-works h2 {
-  margin-top: 30px;
-  color: #7b1b3a;
+  color: #f5f2f3;
   font-size: 20px;
 }
 
@@ -120,6 +116,34 @@ color:#7b1b3a;
 
 .how-it-works li {
   margin-bottom: 10px;
+  font-family: Akatab;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: bottom;
+
+}
+
+/* Small girl studying styles */
+.small-girl-studying-div {
+  width: 131;
+height: 131;
+position: relative;
+top: -120px;
+left: 400px;
+opacity: 1;
+mix-blend-mode: Darken;
+
+}
+
+.smallgirlstudying {
+  width: 131px;
+  height: 131px;
+  opacity: 1;
+  mix-blend-mode: darken;
+
 }
 
 .image-section {
@@ -128,12 +152,12 @@ color:#7b1b3a;
   text-align: center;
 }
 
-.girl-image {
-   width: 261px;
+.smallgirl {
+  width: 261px;
   height: 381px;
   position: absolute;
-  top: 60px;   /* Adjust to center vertically */
-  left: 130px; /* Adjust to center horizontally on blob */
+top: 10px;
+    left: 154px;
   z-index: 100;
   object-fit: cover;
 }
@@ -145,6 +169,50 @@ color:#7b1b3a;
   position: absolute;
   top: 20px;
   left: 90px;
-  /* z-index: -1000; */
-  border-radius: 50%; /* or use blob-style if needed */
+  border-radius: 50%;
+}
+.circle-upper{
+ width: 19px;
+height: 19px;
+position: relative;
+    top: -13px;
+    left: 349px;
+opacity: 1;
+border-radius: 50%;
+background: #F09E8D;
+
+}
+.circle-upper1{
+ width: 15px;
+height: 15px;
+position: relative;
+    top: 2px;
+    left: 380px;
+opacity: 1;
+border-radius: 50%;
+background: #7C651F;
+
+
+}
+.circle-lower1 {
+width: 19px;
+height: 19px;
+position: relative;
+top: 395px;
+    left: 131px;  
+opacity: 1;
+border-radius: 50%;
+background: #B84066;
+
+}
+.circle-lower2{
+width: 15px;
+height: 15px;
+position: relative;
+top: 400px;
+    left: 160px;  
+opacity: 1;
+border-radius: 50%;
+background: #7C651F;
+
 }
