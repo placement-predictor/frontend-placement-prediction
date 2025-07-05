@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
+      background: #F8F7F5;
 }
 
 .logo {
@@ -26,29 +27,35 @@
 .auth-buttons button {
   margin-left: 15px;
   padding: 8px 18px;
-  border: 2px solid #7b1b3a;
-  border-radius: 5px;
-  background: none;
+ 
+  /* background: none; */
+
   font-weight: 600;
   cursor: pointer;
 }
 
 .signup {
-  color: #b13762;
+      background: #732936;
+ color: #FFFFFF;
+ 
   width: 116px;
   height: 53px;
-  font-family: Afacad;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 20px;
+   border: 2px solid #732936;
+  border-radius: 10px;
 }
 
 .login {
   width: 116px;
   height: 53px;
-  font-family: Afacad;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: #7b1b3a;
+  color: #732936;
+   border: 2px solid #0f0f0f;
+  border-radius: 10px;
 }
 
 .hero {
@@ -56,19 +63,32 @@
   justify-content: space-between;
   padding: 50px 60px;
    width: 1288px;       /* or 100% */
-  height: 500px;       /* adjust as needed */
+     height: 595px;      /* adjust as needed */
   border: 5px solid rgba(58, 53, 53, 0.196); /* black border with 80% opacity */
   border-radius: 10px;  /* optional rounded corners */
   backdrop-filter: blur(4px); /* blur the background behind */
   -webkit-backdrop-filter: blur(4px); /* for Safari support */
   /* background-color: rgba(255, 255, 255, 0.1); optional translucent background */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* subtle outer shadow */
-
+     background: #F8F7F5;
 top: 168px;
 left: 80px;
 margin:auto;
 
 }
+.left-shadow {
+  width: 191px; /* You can round off this value */
+  height: 367px;
+  position: absolute;  /* Changed from relative for better overlay positioning */
+  top: 168px;
+  left: 59px;
+  opacity: 1;
+  background: #AD4165;
+  filter: blur(200px);  /* Blurs the element itself, creating a glowing effect */
+  border-radius: 50%;   /* Optional: Makes it more oval/organic like a shadow */
+  z-index: 0;           /* Place it behind other content */
+}
+
 
 .text-section {
   width: 55%;
@@ -91,7 +111,19 @@ margin:auto;
 .text-section h1 span {
   color: #b13762; /* Specific color for 'Accelerate' */
 }
+/* .shadowbox{
+width: 129.9508819580078px;
+height: 358.5px;
+position: relative;
+top: 854px;
+left: 729px;
+opacity: 1;
+background: #FBFFE8;
+box-shadow: 0px 4px 4px 0px #00000040;
+backdrop-filter: blur(100px);
+border: none;
 
+} */
 .how-it-works-div {
   width: 277px;
   height: 45px;
@@ -125,7 +157,15 @@ letter-spacing: 0%;
 vertical-align: bottom;
 
 }
+/* .girllogo{
+width: 111px;
+height: 111px;
+position:relative;
+    top: -15px;
+left: 149px;
+opacity: 1;
 
+} */
 /* Small girl studying styles */
 .small-girl-studying-div {
   width: 131;
@@ -214,5 +254,14 @@ top: 400px;
 opacity: 1;
 border-radius: 50%;
 background: #7C651F;
+
+}
+.ellipse{
+  width: 172px;
+height: 279px;
+position:relative;
+top: 300px;
+left: 270px;
+opacity: 1;
 
 }

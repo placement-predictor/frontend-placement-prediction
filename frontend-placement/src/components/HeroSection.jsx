@@ -3,6 +3,7 @@ import "../css/HeroSection.css";
 import girl from "../assets/94773414d9ad297912557ec5bb06d5aa7df78e6d.jpg"; // replace with your image
 import smallgirl from "../assets/28c12bed36b31dc90ca341d9f19add1923366c46.png";
 import smallgirlstudying from "../assets/58d12c86e7d9b5f3a738f02f804b16c2dbbfbd99.jpg";
+import ellipse from "../assets/Ellipse.png";
 
 function HeroSection() {
   return (
@@ -18,12 +19,19 @@ function HeroSection() {
       </header>
 
       <main className="hero">
+        <div className="left-shadow"></div>
         <div className="text-section">
           <p className="tagline">Optimize Your Resume. Maximize Your Potential</p>
           <h1>
             <span>Accelerate</span> your hiring process
           </h1>
-
+          {/* <div className="girl-logo">
+             <img
+                src={girllogo}
+                alt="Person studying"
+                className=""
+              />
+          </div> */}
           <div className="how-it-works">
             <div className="how-it-works-div">
               <h2>How it works?</h2>
@@ -55,6 +63,11 @@ function HeroSection() {
               <div className="circle-lower2"></div>
           <img src={smallgirl} alt="Person" className="smallgirl" />
           <div className="blob"></div>
+          <div className="crescent-shape">
+           
+ <img src={ellipse} alt="Person" className="ellipse" />
+          </div>
+
         </div>
       </main>
     </div>
