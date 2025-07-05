@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/frontend-placement-prediction/static/css/main.7ab80c48.css",
-    "main.js": "/frontend-placement-prediction/static/js/main.e504615f.js",
+    "main.css": "/frontend-placement-prediction/static/css/main.a3818abb.css",
+    "main.js": "/frontend-placement-prediction/static/js/main.3803c828.js",
     "static/js/453.998f6909.chunk.js": "/frontend-placement-prediction/static/js/453.998f6909.chunk.js",
     "static/media/23366c46.png": "/frontend-placement-prediction/static/media/28c12bed36b31dc90ca341d9f19add1923366c46.947ba19c251464437ba1.png",
     "static/media/dbbfbd99.jpg": "/frontend-placement-prediction/static/media/58d12c86e7d9b5f3a738f02f804b16c2dbbfbd99.4993344595dccd1221a6.jpg",
     "static/media/7df78e6d.jpg": "/frontend-placement-prediction/static/media/94773414d9ad297912557ec5bb06d5aa7df78e6d.a66cb86a2cd0dd69fc86.jpg",
     "static/media/Ellipse.png": "/frontend-placement-prediction/static/media/Ellipse.3ac6083993b267bb751c.png",
     "index.html": "/frontend-placement-prediction/index.html",
-    "main.7ab80c48.css.map": "/frontend-placement-prediction/static/css/main.7ab80c48.css.map",
-    "main.e504615f.js.map": "/frontend-placement-prediction/static/js/main.e504615f.js.map",
+    "main.a3818abb.css.map": "/frontend-placement-prediction/static/css/main.a3818abb.css.map",
+    "main.3803c828.js.map": "/frontend-placement-prediction/static/js/main.3803c828.js.map",
     "453.998f6909.chunk.js.map": "/frontend-placement-prediction/static/js/453.998f6909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ab80c48.css",
-    "static/js/main.e504615f.js"
+    "static/css/main.a3818abb.css",
+    "static/js/main.3803c828.js"
   ]
 }
