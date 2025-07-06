@@ -17,7 +17,7 @@ function HeroSection() {
         </div>
         <div className="auth-buttons">
           <button className="signup" onClick={() => navigate("/signup")}>Sign up</button>
-          <button className="login">Log in</button>
+          <button className="login" onClick={() => navigate("/login")}>Log in</button>
         </div>
       </header>
 
