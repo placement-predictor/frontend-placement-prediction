@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-placement-prediction/static/css/main.73cfe143.css",
-    "main.js": "/frontend-placement-prediction/static/js/main.269ed954.js",
+    "main.css": "/frontend-placement-prediction/static/css/main.563e3099.css",
+    "main.js": "/frontend-placement-prediction/static/js/main.804d1501.js",
     "static/js/453.998f6909.chunk.js": "/frontend-placement-prediction/static/js/453.998f6909.chunk.js",
     "static/media/23366c46.png": "/frontend-placement-prediction/static/media/28c12bed36b31dc90ca341d9f19add1923366c46.947ba19c251464437ba1.png",
     "static/media/Welcome-PNG-HD.png": "/frontend-placement-prediction/static/media/Welcome-PNG-HD.66b97aa635e425f36cb6.png",
@@ -15,12 +15,12 @@
     "static/media/Ellipse.png": "/frontend-placement-prediction/static/media/Ellipse.3ac6083993b267bb751c.png",
     "static/media/emaillogo.png": "/frontend-placement-prediction/static/media/emaillogo.53eaeefc958bdbf643cf.png",
     "index.html": "/frontend-placement-prediction/index.html",
-    "main.73cfe143.css.map": "/frontend-placement-prediction/static/css/main.73cfe143.css.map",
-    "main.269ed954.js.map": "/frontend-placement-prediction/static/js/main.269ed954.js.map",
+    "main.563e3099.css.map": "/frontend-placement-prediction/static/css/main.563e3099.css.map",
+    "main.804d1501.js.map": "/frontend-placement-prediction/static/js/main.804d1501.js.map",
     "453.998f6909.chunk.js.map": "/frontend-placement-prediction/static/js/453.998f6909.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73cfe143.css",
-    "static/js/main.269ed954.js"
+    "static/css/main.563e3099.css",
+    "static/js/main.804d1501.js"
   ]
 }
