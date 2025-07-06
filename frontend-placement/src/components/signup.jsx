@@ -7,7 +7,8 @@ import facebooklogo from "../assets/facebook.png";
 import personlogo from "../assets/personlogo.png";
 import locklogo from "../assets/locklogo.png";
 import emaillogo from "../assets/emaillogo.png";
-import mainlogo from "../assets/94773414d9ad297912557ec5bb06d5aa7df78e6d.jpg";
+import mainlogo from "../assets/logonew.png";
+import { Link } from 'react-router-dom';
 function SignUp(){
 return(
 <div class="signup-page">
@@ -47,7 +48,10 @@ return(
 </form>
 
 <div className="signup-button"><p className="signup-name">SIGN UP</p></div>
-<div className="already-account"><span className="loginacc">Already have an Account ?</span><span className="loginurl"> Login</span></div>
+<div className="already-account">
+  <span className="loginacc">Already have an Account?</span>
+  <Link to="/login" className="loginurl"> Login</Link>
+</div>
     </div>
    
    </div>
